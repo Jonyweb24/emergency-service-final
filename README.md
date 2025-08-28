@@ -10,3 +10,6 @@ Question1: What is the difference between **getElementById, getElementsByClassNa
 **querySelector** method returns the **first** element that matches a CSS selector. <br/>
 **querySelectorAll** method returns **All** matches.<br/>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+#Question2:How do you **create and insert a new element into the DOM**? <br/>
+#Answer: To add a new element to the HTML DOM we must create the element first, and then append it to an existing element. <br/>
+----------------------------------------------------------------------------------------------------------------------------------------------------
