@@ -21,3 +21,7 @@ Question1: What is the difference between **getElementById, getElementsByClassNa
 -If an event handler set for the parent,this event handler is triggered. <br/>
 -The event continues to  bubble,until it raches the top(the document element)
 ---------------------------------------------------------------------------------------------------------------------------------------------<br/>
+#Question4: What is **Event Delegation** in JavaScript? Why is it useful? <br/>
+#Answer: The delegate method attaches one or more event handlers for  specified elements that are children of selected elements, and specifies a function to run when the events occur.<br/>
+Event Delegates are useful because they improve performance and simply code by allowing a single event listener to manage events for multiple elements,including dynamically added ones.<br/>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------<br/>
