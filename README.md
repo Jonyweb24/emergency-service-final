@@ -13,3 +13,11 @@ Question1: What is the difference between **getElementById, getElementsByClassNa
 #Question2:How do you **create and insert a new element into the DOM**? <br/>
 #Answer: To add a new element to the HTML DOM we must create the element first, and then append it to an existing element. <br/>
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+#Question3: What is **Event Bubbling** and how does it work? <br/>
+#Answer: Event bubbling directs an event to its target. It works- <br/>
+-when an element(like a button) is clicked ,an event is directed to the element.<br/>
+-If an event  handler is set for the element,the event handler is triggered. <br/>
+-Then the event "bubles up" to the elements parent. <br/>
+-If an event handler set for the parent,this event handler is triggered. <br/>
+-The event continues to  bubble,until it raches the top(the document element)
+---------------------------------------------------------------------------------------------------------------------------------------------<br/>
